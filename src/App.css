@@ -1,0 +1,53 @@
+/*Main App Component*/
+.App {
+  text-align: center;
+  background-color: #BD8961;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #171927;
+}
+
+/*Login Form Styling*/
+.Login-Form {
+  background-color: #DCD7CB;
+  padding: 60px 200px;
+  border-radius: 20%;
+}
+
+.Login-Form form {
+  max-width: 300px;
+  width: 100%;
+}
+
+.Login-Form label {
+  display: block;
+  padding: 10px;
+}
+
+.Login-Form input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+}
+
+/*Login Button*/
+button {
+  padding: 20px 50px;
+  font-size: 20px;
+  background-color: #475E4E;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #AC5D5D;
+}
